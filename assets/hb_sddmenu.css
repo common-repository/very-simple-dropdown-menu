@@ -1,0 +1,56 @@
+#heiblack-menu a{
+    text-decoration: none;
+    color: #2b2b2b;
+    font-weight: 800;
+  }
+ #heiblack-menu .sub-menu{
+    padding-left:20px ;
+ }
+  #heiblack-menu ul,li{
+    list-style: none;
+  }
+  #heiblack-menu .menu-black-container{
+    padding: 0;
+    margin: 0;
+  }
+  #heiblack-menu .black{
+    padding: 0;
+    margin: 0;
+  }
+  #heiblack-menu .has-child-list{
+    transform: rotate(90deg);
+    display: inline-block;
+    color: #abb8c3;
+    cursor: pointer;
+  }
+  #heiblack-menu .no-child-list{
+    cursor: context-menu;
+    display: inline-block;
+    color: #abb8c3;
+  }
+  #heiblack-menu .black-down{
+    transform: rotate(180deg);
+    display: inline-block;
+    color: #abb8c3;
+    transition: all 0.1s ease-in-out;
+  }
+
+ #heiblack-menu .show{
+     /* fade in */
+    transition: font-size .1s,
+                margin .1s,
+                padding .1s,
+                opacity .1s .1s; 
+}
+#heiblack-menu .hide{
+  font-size: 0;
+    margin: 0;
+    opacity: 0;
+    padding: 0;
+    /* fade out */
+    transition: opacity .1s,
+                font-size .1s .1s,
+                margin .1s .1s,
+                padding .1s .1s;
+
+} 
